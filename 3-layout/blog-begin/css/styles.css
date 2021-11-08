@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* ---------------------------------------------------------- */
+
+/* flex parent header*/
+.header_flex{
+    margin: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center; 
+}
+/* flex child header */
+.leftheader{
+    margin-right: 1rem;
+}
+.rightheader h1{
+    margin: 4rem 0 0 0;
+    color: #DA0090;
+    font-size: 3rem;;
+}
+.rightheader p{
+    margin: 0;
+
+}
+/* --------------------------------------------------------- */
+/* nav parent */
+.nav_flex{
+    margin: 0 7rem 0 7rem;
+    border-top: 2px solid #DA0090;
+    border-bottom: 2px solid #A51F10;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content:space-evenly; 
+}
+nav li{
+    /* border: 1px solid darkorchid; */
+    display: inline-block;
+    margin-right: 1.3rem;
+    
+}
+li a{
+    color: #A51F10;
+    font-size: 1.1rem;
+}
+/* ----------------------------------------------------------- */
+/* article 1 flexes */
+.article1_flex{
+    /* border: 2px solid darkgreen; */
+    display: flex; 
+    flex-flow: row nowrap;
+    padding: 2rem 2rem 2rem 0;
+}
+.article1_flex img{
+    border-radius: 1rem;
+
+}
+.article1_flex div{
+    margin-left: 1rem;
+    padding: 1rem 1rem 1rem 0;
+}
+
+/* -------------------------------------------------------------- */
+/* article 2 flexes */
+.article2_flex{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: row nowrap; 
+    padding: 2rem 2rem 2rem 0;
+}
+.article2_flex img{
+    border-radius: 1rem;
+    
+}
+.article2_flex div{
+    margin-left: 1rem;
+    padding: 1rem 1rem 1rem 0;
+}
+
+section{
+    border-bottom: 2px solid #DA0090;
+    margin: 0 5rem 0.5rem 7rem;
+}
+
+/* -------------------------------------------------------------- */
+/* footer flex */
+
+.footer_flex{
+    border-top: 2px solid #A51F10;
+    margin: 0.5rem 5rem 0 7rem;
+    padding: 0;
+}
+.footer_flex p{
+    margin: 0.2rem auto;
+}
+.footer_flex{
+    display: flex;
+    flex-flow: column;
+    justify-content:center; 
+}
+
+/* footer nav icons */
+.footer_list_flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center; 
+    list-style-type: none;
+    /* border: 1px solid aqua;  */
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+}
+.footer_list_flex li{
+    /* border: 1px solid orchid;  */
+    margin-right: 0.25rem;
+    
+}

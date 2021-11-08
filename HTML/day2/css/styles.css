@@ -1,0 +1,31 @@
+/* my first css */
+
+body{
+    font-family: Arial, Helvetic, Arial, Helvetica, sans-serif;
+    background-color: #C9C9C9;
+}
+img{
+    border: 10px solid green;
+}
+h1{
+    border:5px solid royalblue;
+}
+blockquote{
+    border: 3px dashed royalblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+blockquote cite{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.favlinks{
+
+}
